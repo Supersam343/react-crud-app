@@ -1,4 +1,5 @@
-// 
+// This component lets the user add a new movie using a form.
+// It sends a POST request to the server and refreshes the movie list after adding.
 
 import { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
@@ -12,7 +13,6 @@ function MovieForm({ onMovieAdded }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // verificaiton
     if (!title || !director || !year) {
       alert('Please fill all fields');
       return;

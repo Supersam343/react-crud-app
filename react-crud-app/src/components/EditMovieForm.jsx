@@ -1,4 +1,5 @@
-// 
+// This component shows a pop-up form (modal) that lets the user edit a movie.
+// It fills the form with the selected movie’s current info and updates it when submitted.
 
 
 import { useState, useEffect } from 'react';

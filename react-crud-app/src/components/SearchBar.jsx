@@ -1,5 +1,5 @@
-// 
-
+// This component is the search bar users type into
+// It sends the search term to the parent so it can filter movies
 
 import { useState } from 'react';
 import { Form, Button, InputGroup } from 'react-bootstrap';

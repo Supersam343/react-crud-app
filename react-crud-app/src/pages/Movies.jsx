@@ -1,4 +1,4 @@
-// 
+// movies page
 
 import MovieList from '../components/MovieList';
 

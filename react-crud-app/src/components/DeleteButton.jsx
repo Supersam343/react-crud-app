@@ -1,4 +1,5 @@
-// 
+// This component shows a "Delete" button that removes a movie from the list when clicked. 
+// It asks for confirmation, sends a DELETE request to the server, and tells the parent to refresh.
 
 
 import axios from 'axios';
@@ -8,7 +9,7 @@ function DeleteButton({ movieId, onDelete }) {
     if (window.confirm('Are you sure you want to delete this movie?')) {
       axios.delete(`http://localhost:3001/movies/${movieId}`)
         .then(() => {
-          onDelete(); // Tell parent to refresh list
+          onDelete(); 
         })
         .catch(error => {
           console.error('Error deleting movie:', error);

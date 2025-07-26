@@ -1,22 +1,22 @@
 {
   "movies": [
     {
-      "id": "1",
-      "title": "Braveheart",
-      "genre": "Action",
-      "year": "1995"
-    },
-    {
-      "id": "2",
       "title": "Inception",
       "director": "Christopher Nolan",
-      "year": 2010
+      "year": 2010,
+      "id": "2"
     },
     {
       "id": "c847",
       "title": "Batman \"The Dark Knight\"",
       "director": "Christopher Nolan",
       "year": 2008
+    },
+    {
+      "id": "69b8",
+      "title": "man of steel",
+      "director": "idek",
+      "year": 2011
     }
   ]
 }
