@@ -5,6 +5,12 @@
       "title": "Braveheart",
       "genre": "Action",
       "year": "1995"
+},
+{
+      "id": 2,
+      "title": "Inception",
+      "director": "Christopher Nolan",
+      "year": 2010
     }
   ]
 }
